@@ -209,3 +209,5 @@ I[V|v][V|v]*.*
 
 # Testrunner
 testrunner/**
+/SharpMap/LastMajorVersionBinary
+*.snupkg
