@@ -533,7 +533,7 @@ namespace SharpMap.Layers
                     GetPreview(_gdalDataset, map.Size, g, tileEnvelope, null, map);
                 }
             }
-            base.Render(g, map);
+            //base.Render(g, map);
         }
 
         private IEnumerable<Envelope> Tile(MapViewport map)
